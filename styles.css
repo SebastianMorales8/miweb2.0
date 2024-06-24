@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #050409;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    overflow-y: auto;
+}
+
+.sidebar h2, .sidebar h3 {
+    text-align: center;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    transition: background 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #454548;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icons .icon {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons .icon:hover {
+    color: #007bff;
+}
+
+.sebas {
+    width: 120px;
+    height: 100px;
+}
+
+.main-content {
+    margin-left: 270px;
+    padding: 40px;
+    background-color: #111117;
+    background-image: url('Nueva carpeta/imagenes/mobile_web.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: calc(100% - 270px);
+    height: 100vh;
+    color: bisque;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: bisque;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    color: bisque;
+}
+
+header nav ul li {
+    margin: 0 15px;
+    color: bisque;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: bisque;
+    font-weight: bold;
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.tooltip.visible {
+    display: block;
+}
+
+section {
+    margin: 40px 0;
+}
